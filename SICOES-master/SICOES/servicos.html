@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="CSS/servicos.css">
+    <link rel="stylesheet" type="text/css" href="CSS/main.css">
+    <link rel="stylesheet" type="text/css" href="./CSS/slick.css" />
+    <title>Serviços - SICOES</title>
+</head>
+
+<body>
+    <header class="menu-inicio">
+        <main>
+            <div class="header-1">
+                <div class="logo">
+                    <img src="./img/img5.png" />
+                </div>
+            </div>
+        </main>
+    </header>
+
+    <div class="card">
+        <h2 class="title">Serviços</h2>
+        <nav>
+            <ul class="menu">
+                <a href="./servicos.html"></a>
+                <li>Cadastro</li>
+                <a href="./consultas.html">
+                    <li>Consulta</li>
+                </a>
+            </ul>
+        </nav>
+        <section>
+            <h1>Cadastro de produtos</h1>
+            <hr><br><br>
+
+            <form method="POST" action="./cad_produto.php">
+                <input type="submit" value="Salvar" class="btn">
+                <input type="reset" value="Limpar" class="btn">
+                <br><br>
+
+                Produto<br>
+                <input type="text" name="nome" class="campo" maxlength="40" required autofocus><br>
+                Data<br>
+                <input type="date" name="data" class="campo" required><br>
+                Quantidade<br>
+                <input type="number" name="quantidade" class="campo" required><br>
+                <br><br>
+            </form>
+        </section>
+    </div>
+</body>
+
+</html>

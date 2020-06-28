@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="CSS/consultas.css">
+    <link rel="stylesheet" type="text/css" href="CSS/main.css">
+    <link rel="stylesheet" type="text/css" href="./CSS/slick.css" />
+    <title>Consultas - SICOES</title>
+</head>
+
+<body>
+    <header class="menu-inicio">
+        <main>
+            <div class="header-1">
+                <div class="logo">
+                    <img src="./img/img5.png" />
+                </div>
+            </div>
+        </main>
+    </header>
+
+    <div class="card">
+        <h2 class="title">Serviços</h2>
+        <nav>
+            <ul class="menu">
+                <a href="./servicos.html"></a>
+                <li>Cadastro</li>
+                <a href="./consultas.html">
+                    <li>Consulta</li>
+                </a>
+            </ul>
+        </nav>
+        <section>
+            <h1>Consulta de produtos</h1>
+            <hr><br><br>
+
+            <form method="GET" action="./cons_produto.php">
+                Filtrar por nome: <input type="text" name="filtro" class="campo" required autofocus>
+                <input type="submit" value="Pesquisar" class="btn">
+            </form>
+
+        </section>
+    </div>
+</body>
+
+</html>
